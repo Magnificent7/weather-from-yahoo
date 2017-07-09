@@ -1,0 +1,13 @@
+current directory: /Users/danielle/actualize/weather_from_yahoo/vendor/bundle/gems/json-2.1.0/ext/json
+/Users/danielle/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20170604-31766-1256vnc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/danielle/actualize/weather_from_yahoo/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/danielle/actualize/weather_from_yahoo/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/danielle/actualize/weather_from_yahoo/vendor/bundle/gems/json-2.1.0/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,21 @@
+<% form_tag "/forecasts", method: :get do %>
+  <div>
+    <%= label_tag :city %>
+    <%= text_field_tag :city %>
+
+    <%= label_tag :state %>
+    <%= text_field_tag :state %>
+    <!-- <input type="text" name="state"> -->
+
+    <%= submit_tag "Submit" %>
+  </div>
+<% end %>
+
+<h3>Current Temperature in <%= @city %>: <%= @temperature %></h3>
+<h3>5 Day Forecast:</h3>
+<% @forecast[0..4].each do |day| %>
+  <h4><%= day["date"] %></h4>
+  <p>High: <%= day["high"] %></p>
+  <p>Low: <%= day["low"] %></p>
+  <p>Expected to be: <%= day["text"] %></p>
+<% end %>
